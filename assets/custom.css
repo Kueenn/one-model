@@ -1,0 +1,20 @@
+.custom-button {
+    font-size: 15px;
+    font-family: "Courier New", monospace;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.custom-button:hover {
+    background-color: #e6e6e6;
+}
+
+.custom-button:active {
+    background-color: #d4d4d4;
+    transform: scale(0.97);
+    box-shadow: inset 1px 1px 3px rgba(0,0,0,0.2);
+}
